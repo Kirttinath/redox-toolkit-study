@@ -2,7 +2,7 @@ import { createSlice, nanoid } from "@reduxjs/toolkit";
 
 //This is where Store  linked first
 const initialState ={
-    todos: [],
+    todos: [{id: 1, text: "Hello"}],
 }
 
 export const todoSlice = createSlice({
